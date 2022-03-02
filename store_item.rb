@@ -35,6 +35,9 @@ item1 = Item.new(
 
 item1.print_info
 
+p item1.item_name
+p item1.item_color
+p item1.item_type
 p item1.item_price
 
 
