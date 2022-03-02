@@ -29,11 +29,11 @@ class Bike < Vehicle
   end
 end
 
-car1 = Car.new
-bike1 = Bike.new
+car = Car.new
+bike = Bike.new
 
-p car1.accelerate
-car1.honk_horn
+p car.accelerate
+car.honk_horn
 
-p bike1.accelerate
-bike1.ring_bell
+p bike.accelerate
+bike.ring_bell
